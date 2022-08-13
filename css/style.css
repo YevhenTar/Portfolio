@@ -109,8 +109,8 @@ h5 {
 }
 
 .swiper {
-  width: 75%;
-  height: 90%;
+  width: 873px;
+  height: 531px;
 }
 
 .swiper-slide {
@@ -128,8 +128,12 @@ h5 {
   height: 100%;
 }
 
+.swiper-pagination {
+  position: relative;
+}
+
 .swiper-pagination.swiper-pagination-bullets {
-  bottom: 20px;
+  bottom: -10px;
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
