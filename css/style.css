@@ -109,14 +109,14 @@ h5 {
 }
 
 .swiper {
-  width: auto;
+  width: 75%;
   height: 531px;
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: transparent;
 }
 .swiper-slide__link {
   display: inline-block;

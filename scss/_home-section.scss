@@ -9,13 +9,13 @@
 }
 .swiper {
     // width: 873px;
-    width: auto;
+    width: 75%;
     height: 531px;
 }
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: transparent;
     &__link {
         display: inline-block;
         height: 100%;
