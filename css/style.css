@@ -104,6 +104,8 @@ h5 {
 }
 .home-section__headline {
   text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 @media (max-width: 575.98px) {
   .home-section__headline {
@@ -113,6 +115,7 @@ h5 {
 }
 
 .swiper {
+  width: 75%;
   height: 531px;
 }
 @media (max-width: 1399.98px) {
