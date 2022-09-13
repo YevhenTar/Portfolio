@@ -169,9 +169,19 @@ h5 {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 12px;
 }
+@media (max-width: 767.98px) {
+  .swiper-slide__caption-block {
+    padding: 10px;
+  }
+}
 .swiper-slide__caption {
   color: #fff;
   font-size: 14px;
+}
+@media (max-width: 767.98px) {
+  .swiper-slide__caption {
+    font-size: 12px;
+  }
 }
 
 .swiper-pagination {
