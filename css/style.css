@@ -147,7 +147,7 @@ footer {
   }
 }
 
-video.fullscreen {
+video.fullscreen-video {
   position: absolute;
   z-index: 0;
   -o-object-fit: cover;
@@ -156,7 +156,7 @@ video.fullscreen {
   height: 100vh;
 }
 
-video.fullscreen::-webkit-media-controls {
+video.fullscreen-video::-webkit-media-controls {
   display: none !important;
 }
 

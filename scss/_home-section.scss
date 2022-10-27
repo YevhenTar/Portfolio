@@ -10,7 +10,7 @@
         }
     }
 }
-video.fullscreen {
+video.fullscreen-video {
     position: absolute;
     z-index: 0;
     object-fit: cover;
@@ -20,7 +20,7 @@ video.fullscreen {
     // left: 50%;
     // transform: translate(-50%, -50%);
 }
-video.fullscreen::-webkit-media-controls {
+video.fullscreen-video::-webkit-media-controls {
     display:none !important;
 }
 .swiper {
