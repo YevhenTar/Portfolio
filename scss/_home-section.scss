@@ -19,10 +19,11 @@ video.fullscreen {
     // top: 50%;
     // left: 50%;
     // transform: translate(-50%, -50%);
-
-    // &::-webkit-media-controls {
-    //     display:none !important;
-    // }
+    bottom: 0;
+    left: 0;
+}
+video.fullscreen::-webkit-media-controls {
+    display:none !important;
 }
 .swiper {
     // width: 873px;
