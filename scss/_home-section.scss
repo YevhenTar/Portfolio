@@ -20,9 +20,9 @@ video.fullscreen {
     // left: 50%;
     // transform: translate(-50%, -50%);
 }
-// video.fullscreen::-webkit-media-controls {
-//     display:none !important;
-// }
+video.fullscreen::-webkit-media-controls {
+    display:none !important;
+}
 .swiper {
     // width: 873px;
     width: 75%;

@@ -156,6 +156,10 @@ video.fullscreen {
   height: 100vh;
 }
 
+video.fullscreen::-webkit-media-controls {
+  display: none !important;
+}
+
 .swiper {
   width: 75%;
   height: 531px;
